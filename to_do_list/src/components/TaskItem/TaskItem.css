@@ -1,0 +1,48 @@
+.tasks_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #2f2e2e;
+  border-radius: 10px;
+  height: 50px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.item_text {
+  color: #fff;
+  flex-grow: 1;
+  margin-right: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  &.completed {
+    text-decoration: line-through;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #999999;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.trashIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.checkbox {
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
